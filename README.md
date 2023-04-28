@@ -6,10 +6,10 @@
 ### Запросы в Postman
     
     Прочитать данные из таблицы:
-        GET 127.0.0.1:8080/table
+        GET http://127.0.0.1:8080/table
         
     Добавить строки:
-        POST 127.0.0.1:8080/table/add
+        POST http://127.0.0.1:8080/table/add
         Body -> raw --> JSON
           
           {
@@ -19,6 +19,6 @@
           }
         
     Удалить строки: 
-        127.0.0.1:8080/table/remove?id=5
+        http://127.0.0.1:8080/table/remove?id=5
         
         
