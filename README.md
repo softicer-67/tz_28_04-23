@@ -6,12 +6,13 @@
 ### Запросы в Postman
     
     Прочитать данные из таблицы:
-        GET 
+    GET 
         http://127.0.0.1:8080/table
         
     Добавить строки:
-        POST 
+    POST 
         http://127.0.0.1:8080/table/add
+        
         Body -> raw --> JSON
           
           {
@@ -21,7 +22,7 @@
           }
         
     Удалить строки:
-        POST
+    POST
         http://127.0.0.1:8080/table/remove?id=5
         
         
