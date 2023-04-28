@@ -3,7 +3,7 @@
     1. git clone https://github.com/softicer-67/tz_28_04-23.git
     2. cd tz_28_04-23
 
-### Запросы в Postman
+Запросы в Postman
     
     Прочитать данные из таблицы:
     GET:
